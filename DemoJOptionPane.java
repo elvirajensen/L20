@@ -4,7 +4,7 @@ public class DemoJOptionPane {
     public static void main(String[] args){
         JOptionPane.showMessageDialog(null,"Detta är ett program som multiplicerar två tal.");
         String name = JOptionPane.showInputDialog("Ange ditt namn");
-        int nbr1 = Integer.parseInt(JOptionPane.showInputDialog("Ange det första talet"));
+        int nbr1 = Integer.parseInt(JOptionPane.showInputDialog("Ange det första talet!!!"));
         int nbr2 = Integer.parseInt(JOptionPane.showInputDialog("Ange det andra talet"));
 
         int product = nbr1*nbr2;
@@ -23,3 +23,4 @@ public class DemoJOptionPane {
         }
     }
 }
+
